@@ -63,6 +63,7 @@ Nature Reviews Earth & Environment (NREE) 对 “Perspective” 的说明与要�
 * **明确 scope & aim**：在开头 (introduction / preface) 明确说明 “本文讨论什么 /为何 /目的是什么 /希望达到什么效果 (e.g. stimulate discussion / propose future directions / highlight challenge /offer new perspective) ”。这在审稿 /编辑判断时非常重要。
 * **结构清晰**：用合理的 section /sub-section 标题 (但 avoid 过多层级 /过长标题), 保证逻辑清晰、容易阅读。
 * **兼顾广泛读者**：考虑读者不仅限于你自己专业领域 — 尤其 NREE 的读者可能来自气候 /地球 /环境 /生态 /社会-环境 /政策 等不同领域 — 所以背景和解释要适当，让非专业也能抓住要点。
+* **工作流约束（本项目）**：撰写、验证和生成过程中需复用现有 LangGraph/LangChain 管线（见 `src/tiangong_ai_workspace/agents/*.py`），避免引入与现有代理运行时不兼容的临时脚本或外部框架。
 
 ---
 
